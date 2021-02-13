@@ -1,0 +1,56 @@
+{
+  "name": "shopdesign",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-three/drei": "^3.4.1",
+    "@react-three/gltfjsx": "^3.1.4",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.6.3",
+    "bootstrap": "^5.0.0-beta1",
+    "drei": "^2.2.21",
+    "jquery": "^3.5.1",
+    "lightslider": "^1.1.6",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.1",
+    "react-awesome-slider": "^4.1.0",
+    "react-colorful": "^4.4.4",
+    "react-coverflow": "^0.2.20",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.2",
+    "react-spring": "^8.0.27",
+    "react-three-fiber": "^5.3.18",
+    "scrollreveal": "^4.0.7",
+    "typeit": "^7.0.4",
+    "valtio": "^0.7.0",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "three": "^0.125.2"
+  }
+}
