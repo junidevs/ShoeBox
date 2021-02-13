@@ -5,11 +5,11 @@ Shop with shoe customization
 
 #Still work in progress
 <hr>
-Things to implement:
+<h3>Things to implement:</h3>
 --shoe customization(all js files are ready)
 
 
- Demo:[SpoeBox](https://shoeBox.netlify.com)
+ Demo:[ShoeBox](https://shoeBox.netlify.com)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
