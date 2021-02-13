@@ -39,21 +39,20 @@ const state = proxy({
 
  const App =()=> {
   useEffect(() => {
-
-    new TypeIt("#typed", {
-      strings: "",
-      waitUntilVisible: true,
-    })
-    .type("We create a FASHION", {delay: 100})
-    .pause(300)
-    .move(-0)
-    .delete(7, {delay: 1000})
-    .type("Future", {delay: 1000})
-    .pause(300)
-    .move(-0)
-    .delete(6, {delay: 1000})
-    .type("People", {delay: 1000})
-    .go();
+ new TypeIt("#typed", {
+   strings: "",
+   waitUntilVisible: true,
+ })
+ .type("We create a FASHION", {delay: 100})
+ .pause(300)
+ .move(-0)
+ .delete(7, {delay: 1000})
+ .type("Future", {delay: 1000})
+ .pause(300)
+ .move(-0)
+ .delete(6, {delay: 1000})
+ .type("People", {delay: 1000})
+ .go();
 
 
     setTimeout(() =>{
@@ -144,10 +143,10 @@ const state = proxy({
        </div>
        <div className="row sizerBox">
                      
-                     <div className="col-xxl-12">
+                     <div className="col-xxl-8">
                      <h1 className="bestsellers">Bestsellers</h1>
 
-                 <div className=" col-11 col-sm-10 col-xxl-8">
+      
                    <AwesomeSlider 
                    animation="foldOutAnimation"
                 cssModule={[coreStyles, animationStyles]}>
@@ -159,18 +158,18 @@ const state = proxy({
                 <div><img className="sliderImage"  src={blueShoe}/></div> 
  
               </AwesomeSlider>
-              </div>
+           
                   </div>
                   
-      </div>
       <div className="shapesAdvert row">
-          <div className="leftShape col-12">
-             <div className="content contentStraigt col-2">
+         
+      <div className="leftShape">
+             <div className="content">
                <h1 id="typed" className="typed"></h1>
              </div>
       </div>
       <div className="rightShape">
-      <div className="content contentVideo col-2">
+      <div className="content">
    
 
       <video autoPlay  >
@@ -181,9 +180,10 @@ const state = proxy({
 
       
         </div>
-      
+         </div>
       </div>
-     
+  
+
       </div>
   );
 }
