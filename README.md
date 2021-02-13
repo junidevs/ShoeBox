@@ -1,15 +1,15 @@
 # ShoeBox
-**Shop with shoe customization
+Shop with shoe customization
 
 ###In this project I have inspired nike products
 
-#***Still work in progress ***
+#Still work in progress
 <hr>
 Things to implement:
 --shoe customization(all js files are ready)
 
 
- Demo:[Spoofieee](https://shoeBox.netlify.com)
+ Demo:[SpoeBox](https://shoeBox.netlify.com)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
