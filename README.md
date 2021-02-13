@@ -10,7 +10,7 @@ Shop with shoe customization
 #replace te main css files with repaired image scaling
 #add more content
 
- Demo:[ShoeBox](https://shoeBox.netlify.com)
+ Demo:[ShoeBox](https://shoeboxxx.netlify.com)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
