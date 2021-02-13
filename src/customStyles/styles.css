@@ -5,12 +5,13 @@ body{
     margin: 0%;
     padding:0%;
     cursor: auto;
+    overflow-x: hidden;
     transition:all 300ms cubic-bezier(.42,0,.3,1.66);  
     
 }
 .appContainer{
-   
-    height:100vh
+   width:100vw;
+    height:100%
 }
 .logoSquare{
   
@@ -132,7 +133,7 @@ h3{
   }
   .sizerBox{
     width:100vw;
- height:120vh;
+    height:120vh;
 
 display:flex;
 flex-direction: row;
@@ -140,97 +141,71 @@ align-items:center;
 flex-wrap: wrap;
 justify-content:center;
  text-align: center;
-
+z-index: 999;
 
 
 }
-  .shapesAdvert{
+.shapesAdvert{
+    width:100vw;
+    height:120vh;
+    padding-top: 150px;
    
-      width: 100vw;
-      height: 100vh;
-      
-      position: relative;
-   
-  }
+}
 
 
-  .leftShape{
-   width:100vw;
-   height: 50vh;
-  
+.leftShape{
+ width:100vw;
+ height: 25vh;
+ display:flex;
+ flex-direction: row;
+ align-items:center;
+ flex-wrap: wrap;
+ justify-content:center;
+  text-align: center;
 background-color: #2f2f2f;
-    transform:skew(0deg , -25.5deg) ;
-    box-shadow: 10px -2px 20px 1px #2f2f2f;
-  
-  }
-  .content{
-    width:95vw;
-    height: 50vh;
-   display:flex;
-   justify-content:center;
-   align-items:center;
-    text-align:center;
-    box-sizing: border-box;
-    padding:50px;
-    transform:skew(0deg , 0deg) ;
-  
-    
-  }
- .contentStraigt{
-    transform:skew(0deg , 25.5deg) ;
- }
-  .typed{
-    width:95vw;
-    height:10vh;
-      font-size:40px;
-      font-family: 'Alfa Slab One', cursive;
-    color:#e45c68 !important;
-    -webkit-text-stroke: 1px white;
-      text-shadow: 2px 2px 2px grey;
+  transform:skew(0deg , -25.5deg) ;
+  box-shadow: 10px -2px 20px 1px #2f2f2f;
+  border-left: 7px solid #e45c68;
+  box-sizing: border-box;
+
+}
+
+.contentStraigt{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content:center;
+     text-align: center;
+}
+.typed{
+  width:95vw;
 
 
-  }
-  .rightShape{
-    width: 100vw;
-    height: 50vh;
-    background-color: #e45c68;
-    box-shadow: 10px -2px 20px 1px black;
-    transform:skew(0deg , -25.5deg) ;
-  }
-  @media only screen and (min-width: 550px) and (max-width:786px) {
-    .contentStraigt{
-        transform:skew(0deg , 0deg) ;
-     }
-     .sizerBox{
-        width:100vw;
-        
-        height:46vh;
-        margin-bottom:300px;
-        box-sizing: border-box;
-     position:relative;
-     text-align: center;
-   z-index: 999;
-   
- 
-    }
-    }
-  @media only screen and (max-height: 500px) {
-    .contentStraigt{
-        transform:skew(0deg , 0deg) ;
-     }
-     .sizerBox{
-        width:100vw;
-        
-        height:46vh;
-        margin-bottom:450px;
-        box-sizing: border-box;
-     position:relative;
-     text-align: center;
-   z-index: 999;
-   
- 
-    }
-  }
+    font-size:35px;
+    font-family: 'Alfa Slab One', cursive;
+  color:#e45c68 !important;
+  -webkit-text-stroke: 1px white;
+    text-shadow: 2px 2px 2px grey;
+    -webkit-filter: drop-shadow(7px 27px 23px #000000);
+    -moz-filter: drop-shadow(7px 27px 23px #000000);
+
+}
+.rightShape{
+  width: 100vw;
+  height: 70vh;
+  background-color: #e45c68;
+  box-shadow: -10px -2px 20px 1px black;
+  transform:skew(0deg , -25.5deg) ;
+  
+}
+video{
+    object-fit: contain;
+    transform:scale(1.1);
+    height: 70vh;
+    -webkit-filter: drop-shadow(7px 47px 23px #99252f);
+    -moz-filter: drop-shadow(7px 47px 23px #99252f);
+}
   @media only screen and (max-width: 785px) {
     .sliderImage{
         width:70%;
@@ -242,10 +217,7 @@ background-color: #2f2f2f;
         transition:all 400ms cubic-bezier(1,-0.38,.28,1.57);
     }
   
-    video{
-    
-        width:100vw;
-    }
+  
     .sizerBox{
         width:100vw;
         
@@ -276,35 +248,22 @@ background-color: #2f2f2f;
         z-index: 99;
         -webkit-text-stroke:2px white;
     }
-    .typed{
-        font-size:10vw;
-        font-family: 'Alfa Slab One', cursive;
-    z-index: 99999;
-        text-shadow: 2px 2px 2px grey;
-  
-    }
-    video{
-        width:90vw !important;
-      border: 11px solid #d63745;
-      border-radius: 0px;    
-  }
    
+   
+.rightShape{
+    margin-top: -10px;
+    width: 100vw;
+    height: 70vh;
+    background-color: #e45c68;
+    box-shadow: -8px 6px 20px 1px black;
+    transform:skew(0deg , -25.5deg) ;
+    
+  }
+  video{
+      object-fit: contain;
+      width: 80vw;
+      height: 70vh;
+  }
   }
 
-  video{
-      width:50vw;
-    border: 5px solid #d63745;
-
-    border-radius: 50px; 
-    transition:all 300ms cubic-bezier(.42,0,.3,1.66);   
-}
-.contentVideo{
-    
-    width:100vw;
-    transition:all 300ms cubic-bezier(.42,0,.3,1.66);  
-}
-.contentVideo:hover video{
-    transform: scale(1.05);
-    cursor: pointer;
-
-}
+ 
