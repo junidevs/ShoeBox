@@ -5,8 +5,8 @@ Shop with shoe customization
 
 #Still work in progress
 <hr>
-<h3>Things to implement:</h3>
-#shoe customization(all js files are ready)
+<h3>Things to implement:</h3><br>
+#shoe customization(all js files are ready)<br>
 #replace te main css files with repaired image scaling
 #add more content
 
