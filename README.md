@@ -6,6 +6,7 @@ Shop with shoe customization
 #Still work in progress
 <hr>
 <h3>Things to implement:</h3>
+#optimize app js because now all is in one single component what is bad practise but it is only to test
 #optimize all the images
 #shoe customization(all js files are ready)<br>
 #replace te main css files with repaired image scaling
