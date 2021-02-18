@@ -27,6 +27,7 @@
     "react-vanilla-tilt": "^1.0.0",
     "scrollmagic": "^2.0.8",
     "scrollreveal": "^4.0.7",
+    "styled-components": "^5.2.1",
     "typeit": "^7.0.4",
     "valtio": "^0.7.0",
     "vanilla-tilt": "^1.7.0",

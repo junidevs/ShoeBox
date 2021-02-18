@@ -1,33 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.2dc6be84.chunk.css",
-    "main.js": "/static/js/main.bcdede1c.chunk.js",
-    "main.js.map": "/static/js/main.bcdede1c.chunk.js.map",
+    "main.css": "/static/css/main.b27f15ea.chunk.css",
+    "main.js": "/static/js/main.a14ba2d1.chunk.js",
+    "main.js.map": "/static/js/main.a14ba2d1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c02c5b65.js",
     "runtime-main.js.map": "/static/js/runtime-main.c02c5b65.js.map",
-    "static/css/2.868e983c.chunk.css": "/static/css/2.868e983c.chunk.css",
-    "static/js/2.eb1e20f6.chunk.js": "/static/js/2.eb1e20f6.chunk.js",
-    "static/js/2.eb1e20f6.chunk.js.map": "/static/js/2.eb1e20f6.chunk.js.map",
+    "static/css/2.2de20fea.chunk.css": "/static/css/2.2de20fea.chunk.css",
+    "static/js/2.da1c14f1.chunk.js": "/static/js/2.da1c14f1.chunk.js",
+    "static/js/2.da1c14f1.chunk.js.map": "/static/js/2.da1c14f1.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.868e983c.chunk.css.map": "/static/css/2.868e983c.chunk.css.map",
-    "static/css/main.2dc6be84.chunk.css.map": "/static/css/main.2dc6be84.chunk.css.map",
-    "static/js/2.eb1e20f6.chunk.js.LICENSE.txt": "/static/js/2.eb1e20f6.chunk.js.LICENSE.txt",
-    "static/media/airforce.bff990c0.png": "/static/media/airforce.bff990c0.png",
+    "static/css/2.2de20fea.chunk.css.map": "/static/css/2.2de20fea.chunk.css.map",
+    "static/css/main.b27f15ea.chunk.css.map": "/static/css/main.b27f15ea.chunk.css.map",
+    "static/js/2.da1c14f1.chunk.js.LICENSE.txt": "/static/js/2.da1c14f1.chunk.js.LICENSE.txt",
+    "static/media/airforce.c8786953.png": "/static/media/airforce.c8786953.png",
     "static/media/background.1d24beb6.jpg": "/static/media/background.1d24beb6.jpg",
-    "static/media/blackShoe.67c87692.png": "/static/media/blackShoe.67c87692.png",
-    "static/media/blueShoe.25122f0a.png": "/static/media/blueShoe.25122f0a.png",
+    "static/media/blackShoe.8ee3ba36.png": "/static/media/blackShoe.8ee3ba36.png",
+    "static/media/blueShoe.5126a395.png": "/static/media/blueShoe.5126a395.png",
     "static/media/bubbles.f2d914d9.mp4": "/static/media/bubbles.f2d914d9.mp4",
+    "static/media/logo.cbfbf662.png": "/static/media/logo.cbfbf662.png",
     "static/media/modeliMAGE.6f47b186.jpg": "/static/media/modeliMAGE.6f47b186.jpg",
     "static/media/nikeMain.51c23882.mp4": "/static/media/nikeMain.51c23882.mp4",
     "static/media/nikemovie.9ba360cb.mp4": "/static/media/nikemovie.9ba360cb.mp4",
-    "static/media/pinkShoe.23be8a78.png": "/static/media/pinkShoe.23be8a78.png",
-    "static/media/whiteShoe.2288bd6a.png": "/static/media/whiteShoe.2288bd6a.png"
+    "static/media/pinkShoe.bca1b274.png": "/static/media/pinkShoe.bca1b274.png",
+    "static/media/whiteShoe.07ee876b.png": "/static/media/whiteShoe.07ee876b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c02c5b65.js",
-    "static/css/2.868e983c.chunk.css",
-    "static/js/2.eb1e20f6.chunk.js",
-    "static/css/main.2dc6be84.chunk.css",
-    "static/js/main.bcdede1c.chunk.js"
+    "static/css/2.2de20fea.chunk.css",
+    "static/js/2.da1c14f1.chunk.js",
+    "static/css/main.b27f15ea.chunk.css",
+    "static/js/main.a14ba2d1.chunk.js"
   ]
 }
