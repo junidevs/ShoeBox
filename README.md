@@ -1,7 +1,7 @@
 # ShoeBox
 Shop with shoe customization
 
-###In this project I have inspired nike products
+###In this project I was inspired by nike products
 
 #Still work in progress
 <hr>
