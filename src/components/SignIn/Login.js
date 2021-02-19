@@ -96,15 +96,15 @@ class Login extends Component {
         <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
 <div className="carousel-inner">
 <div className="carousel-item active carouselBox" data-bs-interval="10000">
-<img className="customSliderImage" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs1.1zoom.me%2Fbig0%2F255%2FChickens_Black_background_Eggs_517999_1365x1024.jpg&f=1&nofb=1" className="d-block w-100" alt="..."/>
+//<img className="customSliderImage" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs1.1zoom.me%2Fbig0%2F255%2FChickens_Black_background_Eggs_517999_1365x1024.jpg&f=1&nofb=1" className="d-block w-100" alt="..."/>
 </div>
 <div className="carousel-item carouselBox" data-bs-interval="2000">
 <h1>Your data are save with us</h1>
-<img className="customSliderImage" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.funchap.net%2Fwp-content%2Fuploads%2F2014%2F03%2Fangry_birds_black_wallpaper.jpg&f=1&nofb=1" className="d-block w-100" alt="..."/>
+//<img className="customSliderImage" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.funchap.net%2Fwp-content%2Fuploads%2F2014%2F03%2Fangry_birds_black_wallpaper.jpg&f=1&nofb=1" className="d-block w-100" alt="..."/>
 </div>
 <div className="carousel-item carouselBox">
 <h1>We have special offer for our regular customers</h1>
-<img className="customSliderImage" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercrafter.com%2Fuploads%2Fposts%2F62754-___easter-egg.jpg&f=1&nofb=1" className="d-block w-100" alt="..."/>
+//<img className="customSliderImage" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercrafter.com%2Fuploads%2Fposts%2F62754-___easter-egg.jpg&f=1&nofb=1" className="d-block w-100" alt="..."/>
 </div>
 </div>
 <a className="carousel-control-prev" href="#carouselExampleInterval" role="button" data-bs-slide="prev">
