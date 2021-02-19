@@ -31,6 +31,18 @@ import Navigation from './components/navigation';
 import Products from './components/products';
 import LoginContainer from './components/loginContainer';
 import Footer from './components/footer';
+import SignUpPage from './components/SignUp/SignUpPage';
+import LOGIN from './components/SignIn/Login';
+import PasswordForgetPage from './components/PasswordForget/PasswordForgetPage';
+import HomePage from './components/Home/HomePage';
+import AccountPage from './components/Account/AccountPage';
+import AdminPage from './components/Admin/AdminPage';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import * as ROUTES from './constants/routes';
 
 const state = proxy({
   current: null,
@@ -131,6 +143,7 @@ const state = proxy({
     });
      
   return (
+    <Router>
      <div className="appContainer container-fluid">
          <AnimeBackground source={nikeMain}  />
         <div className="header col-12">
@@ -139,6 +152,12 @@ const state = proxy({
                      <Logo source={logoImg} height="34px" width="35px" className="d-inline-block align-top" />
                  </div>
                    <Navigation /> 
+                   <Route path={ROUTES.SIGN_UP} component={SignUpPage} />
+                <Route path={ROUTES.LOGIN} component={LOGIN} />
+                <Route path={ROUTES.PASSWORD_FORGET} component={PasswordForgetPage} />
+                <Route path={ROUTES.HOME} component={HomePage} />
+                <Route path={ROUTES.ACCOUNT} component={AccountPage} />
+                <Route path={ROUTES.ADMIN} component={AdminPage} />
               </div>
         </div>
           <div className="row second">  
@@ -177,6 +196,7 @@ const state = proxy({
               <Footer bubbles={bubbles} />
          </div>
       </div>
+      </Router>
   );
 }
 export default App;
